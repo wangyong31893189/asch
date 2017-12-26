@@ -1,1 +1,33 @@
-<div class="voteto" ng-controller="secpasssettingCtrl" ng-init="init()"></div>
+<div class="secpasssetting" ng-controller="secpasssettingCtrl" ng-init="init()">
+    <div class="header">
+        <span>设置二级密码</span>
+        <span class="close">X</span>
+    </div>
+    <div class="main">
+        <table>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" ng-model="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="password" ng-model="secpassword"></td>
+            </tr>
+            <tr>
+                <td>费用</td>
+                <td><input type="text" placeholder="  5 XAS" disabled></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><tr>
+                        <td></td>
+                        <td>提交</td>
+                    </tr></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>提交</td>
+            </tr>
+        </table>
+    </div>
+</div>
