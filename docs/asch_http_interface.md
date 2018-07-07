@@ -748,7 +748,7 @@ JSON返回示例：
 |名称	|类型   |说明              |   
 |------ |-----  |----              |   
 |success|boole  |是否成功获得response数据 |    
-|transactions|json  |交易详情      |    
+|transaction|json  |交易详情      |    
    
 请求示例：   
 ```bash   
